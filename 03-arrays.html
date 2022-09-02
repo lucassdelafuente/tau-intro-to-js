@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Arrays are a data structure.
+        const favoriteCookies = [
+            "chocolate chip",
+            "iced oatmeal",
+            "sugar cookies",
+            "butter cookie"
+        ];
+
+        //Add elements into the array
+        favoriteCookies.push("windmill cookies");
+
+        //Remove the last element into the array
+        //The pop() method returns the removed element.
+        let cookies = favoriteCookies.pop();
+
+        //Access to a specific element of the array
+        console.log(favoriteCookies[0]);
+        //Access to a specific element of the array with the length
+        console.log(favoriteCookies[favoriteCookies.length-1]);
+
+        //Array length
+        console.log(favoriteCookies.length);
+
+    </script>
+</body>
+</html>

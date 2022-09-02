@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Name convention: CamelCase.
+        //JavaScript has the concept of primitive data types. These are built into the language, but they're not objects.
+        //String
+        const palindrome = "tacocat";
+        const occupation = "Hand Model";
+        const password = "t3h@&$&()";
+
+        //Numbers
+        const apy = 1.5;
+        const numberOfConcerts = 1000;
+
+        //Booleans
+        const isOlderThan21 = false;
+        const hasNewCarSmell = true;
+
+        //Undefined vs. null
+        //Undefined = Default value when creating a variable. A variable  has been declared but has not yet been assigned a value.
+        //Null = The variable exist but the value is NULL.
+            //null === undefined // false
+            //null == undefined // true
+            //null === null // true   
+
+        var testVar;
+        alert(testVar); //shows undefined
+        alert(typeof testVar); //shows undefined
+
+        var testVar = null;
+        alert(testVar); //shows null
+        alert(typeof testVar); //shows object
+
+    </script>    
+</body>
+</html>
